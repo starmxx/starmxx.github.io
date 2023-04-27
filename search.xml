@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2023/04/26/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>单相逆变</title>
     <url>/2023/04/27/%E5%8D%95%E7%9B%B8%E9%80%86%E5%8F%98/</url>
-    <content><![CDATA[<h1 id="关于单相逆变"><a href="#关于单相逆变" class="headerlink" title="关于单相逆变"></a>关于单相逆变</h1><h2 id="一、组成部分"><a href="#一、组成部分" class="headerlink" title="一、组成部分"></a>一、组成部分</h2><h3 id="硬件部分："><a href="#硬件部分：" class="headerlink" title="硬件部分："></a>硬件部分：</h3><h4 id="1-桥臂-主要部分"><a href="#1-桥臂-主要部分" class="headerlink" title="1.桥臂(主要部分)"></a>1.桥臂(主要部分)</h4><p>桥臂的原理图：</p>
+    <content><![CDATA[<h1 id="一、组成部分"><a href="#一、组成部分" class="headerlink" title="一、组成部分"></a>一、组成部分</h1><h2 id="硬件部分："><a href="#硬件部分：" class="headerlink" title="硬件部分："></a>硬件部分：</h2><h3 id="1-桥臂-主要部分"><a href="#1-桥臂-主要部分" class="headerlink" title="1.桥臂(主要部分)"></a>1.桥臂(主要部分)</h3><p>桥臂的原理图：</p>
 <p>​	<img data-src="/imgs/$%7Bfiilename%7D/%E6%A1%A5%E8%87%82%E5%8E%9F%E7%90%86%E5%9B%BE.png"></p>
 <p>其中，C1为自举电容，C7是用来消除C1的感性的。PWM信号经过滤波后，从IR2110输入，产生高电平信号用来驱动桥臂，二极管的作用是续流和防止电流反向。</p>
 <blockquote>
@@ -30,13 +12,44 @@
 <p>VS端口为什么要接到U上面去</p>
 <p>15V是从24V直流电BUCK过来的嘛</p>
 </blockquote>
-<h4 id="2-输出采样电路"><a href="#2-输出采样电路" class="headerlink" title="2.输出采样电路"></a>2.输出采样电路</h4><p>①电压采样电路</p>
+<h3 id="2-输出采样电路"><a href="#2-输出采样电路" class="headerlink" title="2.输出采样电路"></a>2.输出采样电路</h3><p>①电压采样电路</p>
 <p><img data-src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E5%8E%8B%E9%87%87%E6%A0%B7.png"></p>
 <p>采用的互感器是1:1的电压互感器，其中，差分电路的放大倍数用如下图确定</p>
+<blockquote>
+<p>互感器电阻的选择，取决于两端的电压和电流</p>
+</blockquote>
 <p><img data-src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF.png"></p>
+<blockquote>
+<p>如果一端不是接地，而是接电压的话，则输出的放大电压要加上这一部分的电压</p>
+</blockquote>
 <p>②电流采样电路</p>
 <p><img data-src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E6%B5%81%E9%87%87%E6%A0%B7.png"></p>
-<h2 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h2>]]></content>
+<p>③霍尔采样电路</p>
+<p><img data-src="/imgs/$%7Bfiilename%7D/%E9%9C%8D%E5%B0%94%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p>
+<p>④差分采样电路</p>
+<p><img data-src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p>
+<h2 id="软件部分："><a href="#软件部分：" class="headerlink" title="软件部分："></a>软件部分：</h2><p>软件部分负责控制单片机来输出SPWM波</p>
+<p>这里要先引入float类型以及arm_math库文件</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//宏定义部分</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD  (8399)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD_half  (PERIOD/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_period  (4095)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_periodhalf  (DAC_period/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> f_pwm   (10000)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> t_pwm   (1.0f/f_pwm)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> fb  (50.0f)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> wb  (fb*2*PI)</span></span><br><span class="line"><span class="type">float</span> f32Theta = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32Omega = <span class="number">1.0f</span>;</span><br><span class="line"><span class="type">float</span> f32Sin = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32k = <span class="number">0.5f</span>;</span><br><span class="line"><span class="comment">//中断函数中书写部分</span></span><br><span class="line"><span class="comment">//复制中文时，将edit-&gt;configuration-&gt;encoding由encode in ANSI改为chinese GB2312</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">HAL_ADCEx_InjectedConvCpltCallback</span><span class="params">(ADC_HandleTypeDef* hadc)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(hadc-&gt;Instance == ADC1)</span><br><span class="line">	&#123;</span><br><span class="line">		</span><br><span class="line">		HAL_GPIO_TogglePin(test_io_GPIO_Port, test_io_Pin);</span><br><span class="line">		f32Theta += (f32Omega * (fb*t_pwm));</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(f32Theta &gt; <span class="number">1.0f</span>) f32Theta -= <span class="number">1.0f</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(f32Theta &lt; <span class="number">0</span>)f32Theta += <span class="number">1.0f</span>;</span><br><span class="line">	</span><br><span class="line">		f32Sin = arm_sin_f32(f32Theta*<span class="number">2</span>*PI)*f32k;</span><br><span class="line">		</span><br><span class="line">		HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_1,DAC_ALIGN_12B_R,f32Theta*DAC_period);</span><br><span class="line">		HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_2,DAC_ALIGN_12B_R,f32Sin*DAC_periodhalf+DAC_periodhalf);</span><br><span class="line"></span><br><span class="line"><span class="comment">//		//		//单极性</span></span><br><span class="line"><span class="comment">//		if(f32Theta &lt; 0.5f)  //正半周</span></span><br><span class="line"><span class="comment">//		&#123;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR1 = PERIOD - PERIOD*f32Sin;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR2 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//		&#125;</span></span><br><span class="line"><span class="comment">//		else     //负半周</span></span><br><span class="line"><span class="comment">//		&#123;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR2 = PERIOD - PERIOD*-f32Sin;</span></span><br><span class="line"><span class="comment">//		&#125;</span></span><br><span class="line"></span><br><span class="line">			<span class="comment">//双极性</span></span><br><span class="line">				TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*f32Sin;</span><br><span class="line">				TIM1-&gt;CCR2 = TIM1-&gt;CCR1;	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+<p>​		</p>
+<h1 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h1><p><img data-src="/imgs/$%7Bfiilename%7D/%E5%85%A8%E6%A1%A5%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86%E5%9B%BE.jpg"></p>
+<p>STM32输出两路不同的SPWM信号及其互补信号，控制四根管子的开关，从而实现逆变。其中，可以采取单极性调制或者双极性调制两种调制方式。(还有单极性倍频？)</p>
+<h2 id="单极性调制"><a href="#单极性调制" class="headerlink" title="单极性调制"></a>单极性调制</h2><p>如上图，1管和2管不能同时导通，3管和4管不能同时导通，二者是互补的关系。也就是1管和2管输入互补的信号，3管和4管输入互补的信号。</p>
+<p>调制波在正半周的时候，1管导通，2管关断。当调制波大于载波时，4管导通，3管截止</p>
+<p>调制波在负半周的时候，2管导通，1管关断。调制原理与上述相同</p>
+<h2 id="双极性调制"><a href="#双极性调制" class="headerlink" title="双极性调制"></a>双极性调制</h2><p>当调制波大于载波的时候，1、4管导通，2、3管截止</p>
+<p>反之，1、4管截止，2、3管导通</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote>
+<p>可参考的资料文献</p>
+</blockquote>
+<p>[<a href="https://kns.cnki.net/KCMS/detail/detail.aspx?filename=2008028424.nh&dbname=CMFD2008&dbcode=cdmd&uid=WEEvREcwSlJHSldSdmVqMVc3L25wYVZkMnpZS1NGbk04SVloaEpLWmRnQT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MDE1MDExMjdGck82RnRYT3E1RWJQSVIrZm5zNHlSWWFtejExUEhia3FXQTBGckNVUjdtZlkrUm9GQ3JoVUx6TlY=">基于DSP单相逆变器数字控制实验系统研究</a>]</p>
+<blockquote>
+<p>可学习的地方：过流保护、PID控制算法</p>
+</blockquote>
+]]></content>
       <tags>
         <tag>ED</tag>
       </tags>
