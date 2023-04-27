@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2023/04/26/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2023/04/27/%E5%85%B3%E4%BA%8E%E5%8D%95%E7%9B%B8%E9%80%86%E5%8F%98/</url>
+    <content><![CDATA[<h1 id="关于单相逆变"><a href="#关于单相逆变" class="headerlink" title="关于单相逆变"></a>关于单相逆变</h1><h2 id="一、组成部分"><a href="#一、组成部分" class="headerlink" title="一、组成部分"></a>一、组成部分</h2><h3 id="硬件部分："><a href="#硬件部分：" class="headerlink" title="硬件部分："></a>硬件部分：</h3><h4 id="1-桥臂-主要部分"><a href="#1-桥臂-主要部分" class="headerlink" title="1.桥臂(主要部分)"></a>1.桥臂(主要部分)</h4><p>桥臂的原理图：</p>
+<p>​	<img data-src="C:\Users\starmx\AppData\Roaming\Typora\typora-user-images\image-20230427123501667.png" alt="image-20230427123501667"></p>
+<p>其中，C1为自举电容，C7是用来消除C1的感性的。PWM信号经过滤波后，从IR2110输入，产生高电平信号用来驱动桥臂，二极管的作用是续流和防止电流反向。</p>
+<blockquote>
+<p>COM作用是？</p>
+<p>输入的15V是否要更高一点？由于MOS管存在压降，输入的15V会有损耗</p>
+<p>VS端口为什么要接到U上面去</p>
+<p>15V是从24V直流电BUCK过来的嘛</p>
+</blockquote>
+<h4 id="2-输出采样电路"><a href="#2-输出采样电路" class="headerlink" title="2.输出采样电路"></a>2.输出采样电路</h4><p>①电压采样电路</p>
+<p><img data-src="C:\Users\starmx\AppData\Roaming\Typora\typora-user-images\image-20230427130645541.png" alt="image-20230427130645541"></p>
+<p>采用的互感器是1:1的电压互感器，其中，差分电路的放大倍数用如下图确定</p>
+<p><img data-src="C:\Users\starmx\AppData\Roaming\Typora\typora-user-images\image-20230427131120732.png" alt="image-20230427131120732"></p>
+<p>②电流采样电路</p>
+<p><img data-src="C:\Users\starmx\AppData\Roaming\Typora\typora-user-images\image-20230427131418171.png" alt="image-20230427131418171"></p>
+<h2 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h2>]]></content>
+  </entry>
+</search>
