@@ -54,4 +54,21 @@
         <tag>ED</tag>
       </tags>
   </entry>
+  <entry>
+    <title>关于MOS管</title>
+    <url>/2023/04/28/%E5%85%B3%E4%BA%8EMOS%E7%AE%A1/</url>
+    <content><![CDATA[<p>​                                                                                                                                                                                                                                                                                                                </p>
+<h1 id="N沟道增强型MOS"><a href="#N沟道增强型MOS" class="headerlink" title="N沟道增强型MOS"></a>N沟道增强型MOS</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><img data-src="/imgs/$%7Bfiilename%7D/MOS1.jpg" style="zoom:50%;" />
+
+<p>当GS接上如图的电压后，由于G的正电会吸引电子上来，从而和两端的D和S形成N沟道，中间会形成电流，此时，如果在DS处也加上电压的话，如下图。</p>
+<img data-src="/imgs/$%7Bfiilename%7D/MOS2.jpg" style="zoom: 50%;" />
+
+<p>此时，越靠近D处的电子受到的吸引力越强，所形成的沟道也越窄，当DS处电压不断增大，会出现预夹断的情况，继续增大DS的电压，电流不会继续增加，而是保持恒定。综上，GS两端的电压用于控制电流的上限，而DS两端的电压则是用来控制出现预夹断的点。</p>
+<p>输出特性曲线如下：</p>
+<p><img data-src="/imgs/$%7Bfiilename%7D/MOS3.jpg"></p>
+<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+      <tags>
+        <tag>ED</tag>
+      </tags>
+  </entry>
 </search>
