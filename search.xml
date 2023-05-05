@@ -1,134 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title>电容</title>
-    <url>/2023/04/28/%E5%85%83%E5%99%A8%E4%BB%B6/</url>
-    <content><![CDATA[<h1 id="一、分类"><a href="#一、分类" class="headerlink" title="一、分类"></a>一、分类</h1><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E5%88%86%E7%B1%BB.jpg"/>
-
-<h1 id="二、电容应用场景"><a href="#二、电容应用场景" class="headerlink" title="二、电容应用场景"></a>二、电容应用场景</h1><h2 id="耦合电容"><a href="#耦合电容" class="headerlink" title="耦合电容"></a>耦合电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E8%80%A6%E5%90%88%E7%94%B5%E5%AE%B9.jpg"/>
-
-
-
-<h2 id="滤波-去耦-电容"><a href="#滤波-去耦-电容" class="headerlink" title="滤波(去耦)电容"></a>滤波(去耦)电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E6%BB%A4%E6%B3%A2%E7%94%B5%E5%AE%B9.jpg"/>
-
-<h2 id="去耦电容与旁路电容"><a href="#去耦电容与旁路电容" class="headerlink" title="去耦电容与旁路电容"></a>去耦电容与旁路电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E6%97%81%E8%B7%AF%E7%94%B5%E5%AE%B9.jpg"/>
-
-<h2 id="电容特点"><a href="#电容特点" class="headerlink" title="电容特点"></a>电容特点</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E7%89%B9%E7%82%B9.jpg"/>
-
-<h1 id="三、各种电容作用"><a href="#三、各种电容作用" class="headerlink" title="三、各种电容作用"></a>三、各种电容作用</h1><h2 id="电解电容"><a href="#电解电容" class="headerlink" title="电解电容"></a>电解电容</h2><p>电解电容当需要非常大的电容值，通常使用电解电容。电解电容不是使用非常薄的金属膜层作为电极之一，而是使用凝胶或糊状物形式的半液体电解质溶液作为第二电极。<br>电解电容通常有两种基本形式：铝电解电容和钽电解电容。</p>
-<p><strong>①铝电解电容</strong><br><strong>铝电解电容优点</strong>：最适合用于<strong>耦合</strong>、<strong>隔直</strong>和<strong>旁路电路</strong>，铝电解电容内使用的<strong>电解质有助于修复损坏的极板</strong>，还具有对箔板进行<strong>再阳极氧化</strong>的能力。最常用于电源的<strong>去耦目的，</strong>即减少到达电路的电压纹波。它们还广泛用于<strong>DC&#x2F;DC 开关电压转换器。</strong><br><strong>铝电解电容缺点</strong>：与普通类型相比，<strong>不能承受高直流电流</strong>，<strong>容易极化</strong>，它们的<strong>公差范围也很大</strong>，高达 20%。铝电解电容的典型电容值范围为 1uF 至 47,000uF。</p>
-<p><strong>②钽电解电容</strong><br><strong>钽电解电容优点：</strong>介电性能也比氧化铝好得多<strong>，具有</strong>更低的漏电流<strong>和</strong>更好的电容稳定性<strong>，使其适用于</strong>阻断<strong>、</strong>旁路<strong>、</strong>去耦<strong>、</strong>滤波<strong>和</strong>定时<strong>应用，</strong>额定工作电压要低得多。固态钽电容器通常用于交流电压小于直流电压的电路中。<br><strong>钽电解电容缺点：高度极化，</strong>具有<strong>灾难性的故障模式</strong>，可能由电压尖峰触发，甚至比额定电压略高。</p>
-<h2 id="陶瓷电容-MLCC"><a href="#陶瓷电容-MLCC" class="headerlink" title="陶瓷电容(MLCC)"></a>陶瓷电容(MLCC)</h2><p><strong>陶瓷电容</strong>的结构非常简单。在两个金属盘之间放置一个薄陶瓷盘，这些端子焊接到金属盘上。一切都涂有绝缘保护涂层。MLCC 和陶瓷圆盘电容都进一步分为两个应用类别：<strong>I 类陶瓷电容和II 类陶瓷电容。</strong></p>
-<p><strong>1.1 I 类陶瓷电容</strong><br><strong>精确度 (+&#x2F;- 5%)</strong> 和<strong>温度补偿</strong>，<strong>电容随温度的变化非常小</strong>。非常稳定和准确，用于频率控制应用，例如无线电应用的<strong>谐振电路</strong>。<br>I类陶瓷电容器（Class I ceramic capacitor），过去称高频陶瓷电容器（High-frequency ceramic capacitor），介质采用非铁电（顺电）配方，以TiO2为主要成分（介电常数小于150），因此具有最稳定的性能；或者通过添加少量其他（铁电体）氧化物，如CaTiO3或SrTiO3，构成“扩展型”温度补偿陶瓷，则可表现出近似线性的温度系数，介电常数增加至500。这两种介质损耗小、绝缘电阻高、温度特性好。特别适用于<strong>振荡器、谐振回路、高频电路中的耦合电容，以及其他要求损耗小和电容量稳定的电路或用于温度补偿</strong>。<br><strong>C0G(NP0)</strong><br><strong>SL0</strong></p>
-<p><strong>1.2 II 类陶瓷电容</strong><br><strong>精度较低</strong>，但提供<strong>更高的体积密度</strong>（高达 µF 范围），因此适用于<strong>平滑或去耦</strong>应用。 此外，它们具有<strong>较大的电压系数</strong>，在最大 VDC 的一半处电容值降低 50% 是常见的。<br><strong>X5R</strong> ：可在 -55C 至 85C 温度范围内运行，变化范围为 +&#x2F;- 15%。<br><strong>X7R</strong> ：可在 -55C 至 125C 温度范围内运行，变化范围为 +&#x2F;- 15% <strong>Y5V</strong> ：可在 -30C 至 85C 温度范围内运行，变化范围为 +22&#x2F;- 82%。<br><strong>封装：</strong>0201、0402、0603、0805、1206 和 1812 封装最为常见。数字代表英制尺寸，0402 为 0.04 X 0.02 英寸，0603 为 0.06 X 0.03 英寸，依此类推。</p>
-<h1 id="四、电容主要参数"><a href="#四、电容主要参数" class="headerlink" title="四、电容主要参数"></a>四、电容主要参数</h1><h2 id="1-精度"><a href="#1-精度" class="headerlink" title="1.精度"></a>1.精度</h2><p>电容的精度一般比电阻来的小，电阻可以做到精度高于0.1%，电容能做到5%的精度已经非常高了。<br>一般的精度为5%、10%、25%</p>
-<h2 id="2-温度系数"><a href="#2-温度系数" class="headerlink" title="2.温度系数"></a>2.温度系数</h2><p>电容的电容量会随温度的<strong>升高而降低</strong>，衡量这个变化的指标就是温度系数,单位为ppm<br>例如，0.1uF、250ppm的电容，温度每升高一度，电容量要降低</p>
-<p>$$<br>0.1uF*\frac{250}{10^6}&#x3D;25pF<br>$$</p>
-<h2 id="3-耐压"><a href="#3-耐压" class="headerlink" title="3.耐压"></a>3.耐压</h2><p>电容的电容量会随其两端的电压增大而减小<br>理论上电容的耐压要比所处环境的电压最大值大即可，实际上要留有80%的裕量。特别是钽电容，耐压必须留有50%的裕量</p>
-<h2 id="4-温度范围"><a href="#4-温度范围" class="headerlink" title="4.温度范围"></a>4.温度范围</h2><p>电容必须在其规定的温度范围内使用</p>
-<h2 id="5-ESR-等效串联电阻"><a href="#5-ESR-等效串联电阻" class="headerlink" title="5.ESR(等效串联电阻)"></a>5.ESR(等效串联电阻)</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E5%AE%9E%E9%99%85%E6%A8%A1%E5%9E%8B2.jpg"/>
-电容实际模型如上图
-ESR理想值为0
-
-<table>
-<thead>
-<tr>
-<th align="center">电容类别</th>
-<th align="center">ESR</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">陶瓷电容器</td>
-<td align="center">最佳的ESR(通常为毫欧级)</td>
-</tr>
-<tr>
-<td align="center">钽电解电容</td>
-<td align="center">数百毫欧</td>
-</tr>
-<tr>
-<td align="center">铝电解电容</td>
-<td align="center">欧姆级</td>
-</tr>
-</tbody></table>
-<p>这个参数非常重要，一般的DCDC电源输出端需要ESR极低的电容，一般可以选用MLCC电容、钽电容等</p>
-<h2 id="6-ESL-等效串联电感"><a href="#6-ESL-等效串联电感" class="headerlink" title="6.ESL(等效串联电感)"></a>6.ESL(等效串联电感)</h2><p>其理想值为0，ESL范围在100pH至10nH之间<br>设计电路的时候，如果遇到了芯片，要在芯片的VCC引脚放置一个0.1uF的陶瓷电容进行滤波<br>如果供电的时候，谐波频率高到一定的时候，电容中的ESL电感作用就不可以忽视了，再高的时候ESL电感会起主导作用，此时电容显感性，失去了滤波的作用，这个时候需要<strong>降低电容量，或者选择两个电容进行并联</strong>，分别滤掉不同的谐波分量。其中，电容越靠近芯片越好，这是由于空气中的电磁波产生感应电动势，$\textcolor{Red}{产生干扰}$</p>
-]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>电容</title>
+      <link href="/2023/04/28/%E5%85%83%E5%99%A8%E4%BB%B6/"/>
+      <url>/2023/04/28/%E5%85%83%E5%99%A8%E4%BB%B6/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、分类"><a href="#一、分类" class="headerlink" title="一、分类"></a>一、分类</h1><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E5%88%86%E7%B1%BB.jpg"/><h1 id="二、电容应用场景"><a href="#二、电容应用场景" class="headerlink" title="二、电容应用场景"></a>二、电容应用场景</h1><h2 id="耦合电容"><a href="#耦合电容" class="headerlink" title="耦合电容"></a>耦合电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E8%80%A6%E5%90%88%E7%94%B5%E5%AE%B9.jpg"/><h2 id="滤波-去耦-电容"><a href="#滤波-去耦-电容" class="headerlink" title="滤波(去耦)电容"></a>滤波(去耦)电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E6%BB%A4%E6%B3%A2%E7%94%B5%E5%AE%B9.jpg"/><h2 id="去耦电容与旁路电容"><a href="#去耦电容与旁路电容" class="headerlink" title="去耦电容与旁路电容"></a>去耦电容与旁路电容</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E6%97%81%E8%B7%AF%E7%94%B5%E5%AE%B9.jpg"/><h2 id="电容特点"><a href="#电容特点" class="headerlink" title="电容特点"></a>电容特点</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E7%89%B9%E7%82%B9.jpg"/><h1 id="三、各种电容作用"><a href="#三、各种电容作用" class="headerlink" title="三、各种电容作用"></a>三、各种电容作用</h1><h2 id="电解电容"><a href="#电解电容" class="headerlink" title="电解电容"></a>电解电容</h2><p>电解电容当需要非常大的电容值，通常使用电解电容。电解电容不是使用非常薄的金属膜层作为电极之一，而是使用凝胶或糊状物形式的半液体电解质溶液作为第二电极。<br>电解电容通常有两种基本形式：铝电解电容和钽电解电容。</p><p><strong>①铝电解电容</strong><br><strong>铝电解电容优点</strong>：最适合用于<strong>耦合</strong>、<strong>隔直</strong>和<strong>旁路电路</strong>，铝电解电容内使用的<strong>电解质有助于修复损坏的极板</strong>，还具有对箔板进行<strong>再阳极氧化</strong>的能力。最常用于电源的<strong>去耦目的，</strong>即减少到达电路的电压纹波。它们还广泛用于<strong>DC&#x2F;DC 开关电压转换器。</strong><br><strong>铝电解电容缺点</strong>：与普通类型相比，<strong>不能承受高直流电流</strong>，<strong>容易极化</strong>，它们的<strong>公差范围也很大</strong>，高达 20%。铝电解电容的典型电容值范围为 1uF 至 47,000uF。</p><p><strong>②钽电解电容</strong><br><strong>钽电解电容优点：</strong>介电性能也比氧化铝好得多<strong>，具有</strong>更低的漏电流<strong>和</strong>更好的电容稳定性<strong>，使其适用于</strong>阻断<strong>、</strong>旁路<strong>、</strong>去耦<strong>、</strong>滤波<strong>和</strong>定时<strong>应用，</strong>额定工作电压要低得多。固态钽电容器通常用于交流电压小于直流电压的电路中。<br><strong>钽电解电容缺点：高度极化，</strong>具有<strong>灾难性的故障模式</strong>，可能由电压尖峰触发，甚至比额定电压略高。</p><h2 id="陶瓷电容-MLCC"><a href="#陶瓷电容-MLCC" class="headerlink" title="陶瓷电容(MLCC)"></a>陶瓷电容(MLCC)</h2><p><strong>陶瓷电容</strong>的结构非常简单。在两个金属盘之间放置一个薄陶瓷盘，这些端子焊接到金属盘上。一切都涂有绝缘保护涂层。MLCC 和陶瓷圆盘电容都进一步分为两个应用类别：<strong>I 类陶瓷电容和II 类陶瓷电容。</strong></p><p><strong>1.1 I 类陶瓷电容</strong><br><strong>精确度 (+&#x2F;- 5%)</strong> 和<strong>温度补偿</strong>，<strong>电容随温度的变化非常小</strong>。非常稳定和准确，用于频率控制应用，例如无线电应用的<strong>谐振电路</strong>。<br>I类陶瓷电容器（Class I ceramic capacitor），过去称高频陶瓷电容器（High-frequency ceramic capacitor），介质采用非铁电（顺电）配方，以TiO2为主要成分（介电常数小于150），因此具有最稳定的性能；或者通过添加少量其他（铁电体）氧化物，如CaTiO3或SrTiO3，构成“扩展型”温度补偿陶瓷，则可表现出近似线性的温度系数，介电常数增加至500。这两种介质损耗小、绝缘电阻高、温度特性好。特别适用于<strong>振荡器、谐振回路、高频电路中的耦合电容，以及其他要求损耗小和电容量稳定的电路或用于温度补偿</strong>。<br><strong>C0G(NP0)</strong><br><strong>SL0</strong></p><p><strong>1.2 II 类陶瓷电容</strong><br><strong>精度较低</strong>，但提供<strong>更高的体积密度</strong>（高达 µF 范围），因此适用于<strong>平滑或去耦</strong>应用。 此外，它们具有<strong>较大的电压系数</strong>，在最大 VDC 的一半处电容值降低 50% 是常见的。<br><strong>X5R</strong> ：可在 -55C 至 85C 温度范围内运行，变化范围为 +&#x2F;- 15%。<br><strong>X7R</strong> ：可在 -55C 至 125C 温度范围内运行，变化范围为 +&#x2F;- 15% <strong>Y5V</strong> ：可在 -30C 至 85C 温度范围内运行，变化范围为 +22&#x2F;- 82%。<br><strong>封装：</strong>0201、0402、0603、0805、1206 和 1812 封装最为常见。数字代表英制尺寸，0402 为 0.04 X 0.02 英寸，0603 为 0.06 X 0.03 英寸，依此类推。</p><h1 id="四、电容主要参数"><a href="#四、电容主要参数" class="headerlink" title="四、电容主要参数"></a>四、电容主要参数</h1><h2 id="1-精度"><a href="#1-精度" class="headerlink" title="1.精度"></a>1.精度</h2><p>电容的精度一般比电阻来的小，电阻可以做到精度高于0.1%，电容能做到5%的精度已经非常高了。<br>一般的精度为5%、10%、25%</p><h2 id="2-温度系数"><a href="#2-温度系数" class="headerlink" title="2.温度系数"></a>2.温度系数</h2><p>电容的电容量会随温度的<strong>升高而降低</strong>，衡量这个变化的指标就是温度系数,单位为ppm<br>例如，0.1uF、250ppm的电容，温度每升高一度，电容量要降低</p><p>$$<br>0.1uF*\frac{250}{10^6}&#x3D;25pF<br>$$</p><h2 id="3-耐压"><a href="#3-耐压" class="headerlink" title="3.耐压"></a>3.耐压</h2><p>电容的电容量会随其两端的电压增大而减小<br>理论上电容的耐压要比所处环境的电压最大值大即可，实际上要留有80%的裕量。特别是钽电容，耐压必须留有50%的裕量</p><h2 id="4-温度范围"><a href="#4-温度范围" class="headerlink" title="4.温度范围"></a>4.温度范围</h2><p>电容必须在其规定的温度范围内使用</p><h2 id="5-ESR-等效串联电阻"><a href="#5-ESR-等效串联电阻" class="headerlink" title="5.ESR(等效串联电阻)"></a>5.ESR(等效串联电阻)</h2><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/%E7%94%B5%E5%AE%B9%E5%AE%9E%E9%99%85%E6%A8%A1%E5%9E%8B2.jpg"/>电容实际模型如上图ESR理想值为0<table><thead><tr><th align="center">电容类别</th><th align="center">ESR</th></tr></thead><tbody><tr><td align="center">陶瓷电容器</td><td align="center">最佳的ESR(通常为毫欧级)</td></tr><tr><td align="center">钽电解电容</td><td align="center">数百毫欧</td></tr><tr><td align="center">铝电解电容</td><td align="center">欧姆级</td></tr></tbody></table><p>这个参数非常重要，一般的DCDC电源输出端需要ESR极低的电容，一般可以选用MLCC电容、钽电容等</p><h2 id="6-ESL-等效串联电感"><a href="#6-ESL-等效串联电感" class="headerlink" title="6.ESL(等效串联电感)"></a>6.ESL(等效串联电感)</h2><p>其理想值为0，ESL范围在100pH至10nH之间<br>设计电路的时候，如果遇到了芯片，要在芯片的VCC引脚放置一个0.1uF的陶瓷电容进行滤波<br>如果供电的时候，谐波频率高到一定的时候，电容中的ESL电感作用就不可以忽视了，再高的时候ESL电感会起主导作用，此时电容显感性，失去了滤波的作用，这个时候需要<strong>降低电容量，或者选择两个电容进行并联</strong>，分别滤掉不同的谐波分量。其中，电容越靠近芯片越好，这是由于空气中的电磁波产生感应电动势，产生干扰</p>]]></content>
+      
+      
       <categories>
-        <category>元器件</category>
+          
+          <category> 元器件 </category>
+          
       </categories>
-      <tags>
-        <tag>ED</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单相逆变</title>
-    <url>/2023/04/27/%E5%8D%95%E7%9B%B8%E9%80%86%E5%8F%98/</url>
-    <content><![CDATA[<h1 id="一、组成部分"><a href="#一、组成部分" class="headerlink" title="一、组成部分"></a>一、组成部分</h1><h2 id="硬件部分："><a href="#硬件部分：" class="headerlink" title="硬件部分："></a>硬件部分：</h2><h3 id="1-桥臂-主要部分"><a href="#1-桥臂-主要部分" class="headerlink" title="1.桥臂(主要部分)"></a>1.桥臂(主要部分)</h3><p>桥臂的原理图：</p>
-<p>​	<img src="/imgs/$%7Bfiilename%7D/%E6%A1%A5%E8%87%82%E5%8E%9F%E7%90%86%E5%9B%BE.png"></p>
-<p>其中，C1为自举电容，C7是用来消除C1的感性的。PWM信号经过滤波后，从IR2110输入，产生高电平信号用来驱动桥臂，二极管的作用是续流和防止电流反向。</p>
-<blockquote>
-<p>COM作用是？</p>
-<p>输入的15V是否要更高一点？由于MOS管存在压降，输入的15V会有损耗</p>
-<p>VS端口为什么要接到U上面去</p>
-<p>15V是从24V直流电BUCK过来的嘛</p>
-</blockquote>
-<h3 id="2-输出采样电路"><a href="#2-输出采样电路" class="headerlink" title="2.输出采样电路"></a>2.输出采样电路</h3><p>①电压采样电路</p>
-<p><img src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E5%8E%8B%E9%87%87%E6%A0%B7.png"></p>
-<p>采用的互感器是1:1的电压互感器，其中，差分电路的放大倍数用如下图确定</p>
-<blockquote>
-<p>互感器电阻的选择，取决于两端的电压和电流</p>
-</blockquote>
-<p><img src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF.png"></p>
-<blockquote>
-<p>如果一端不是接地，而是接电压的话，则输出的放大电压要加上这一部分的电压</p>
-</blockquote>
-<p>②电流采样电路</p>
-<p><img src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E6%B5%81%E9%87%87%E6%A0%B7.png"></p>
-<p>③霍尔采样电路</p>
-<p><img src="/imgs/$%7Bfiilename%7D/%E9%9C%8D%E5%B0%94%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p>
-<p>④差分采样电路</p>
-<p><img src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p>
-<h2 id="软件部分："><a href="#软件部分：" class="headerlink" title="软件部分："></a>软件部分：</h2><p>软件部分负责控制单片机来输出SPWM波</p>
-<p>这里要先引入float类型以及arm_math库文件</p>
-<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="comment">//宏定义部分</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD  (8399)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD_half  (PERIOD/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_period  (4095)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_periodhalf  (DAC_period/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> f_pwm   (10000)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> t_pwm   (1.0f/f_pwm)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> fb  (50.0f)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> wb  (fb*2*PI)</span></span><br><span class="line"><span class="type">float</span> f32Theta = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32Omega = <span class="number">1.0f</span>;</span><br><span class="line"><span class="type">float</span> f32Sin = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32k = <span class="number">0.5f</span>;</span><br><span class="line"><span class="comment">//中断函数中书写部分</span></span><br><span class="line"><span class="comment">//复制中文时，将edit-&gt;configuration-&gt;encoding由encode in ANSI改为chinese GB2312</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">HAL_ADCEx_InjectedConvCpltCallback</span><span class="params">(ADC_HandleTypeDef* hadc)</span></span><br><span class="line">&#123;</span><br><span class="line">	<span class="keyword">if</span>(hadc-&gt;Instance == ADC1)</span><br><span class="line">	&#123;</span><br><span class="line">		</span><br><span class="line">		HAL_GPIO_TogglePin(test_io_GPIO_Port, test_io_Pin);</span><br><span class="line">		f32Theta += (f32Omega * (fb*t_pwm));</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">if</span>(f32Theta &gt; <span class="number">1.0f</span>) f32Theta -= <span class="number">1.0f</span>;</span><br><span class="line">		<span class="keyword">else</span> <span class="keyword">if</span>(f32Theta &lt; <span class="number">0</span>)f32Theta += <span class="number">1.0f</span>;</span><br><span class="line">	</span><br><span class="line">		f32Sin = arm_sin_f32(f32Theta*<span class="number">2</span>*PI)*f32k;</span><br><span class="line">		</span><br><span class="line">		HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_1,DAC_ALIGN_12B_R,f32Theta*DAC_period);</span><br><span class="line">		HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_2,DAC_ALIGN_12B_R,f32Sin*DAC_periodhalf+DAC_periodhalf);</span><br><span class="line"></span><br><span class="line"><span class="comment">//		//		//单极性</span></span><br><span class="line"><span class="comment">//		if(f32Theta &lt; 0.5f)  //正半周</span></span><br><span class="line"><span class="comment">//		&#123;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR1 = PERIOD - PERIOD*f32Sin;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR2 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//		&#125;</span></span><br><span class="line"><span class="comment">//		else     //负半周</span></span><br><span class="line"><span class="comment">//		&#123;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//			TIM1-&gt;CCR2 = PERIOD - PERIOD*-f32Sin;</span></span><br><span class="line"><span class="comment">//		&#125;</span></span><br><span class="line"></span><br><span class="line">			<span class="comment">//双极性</span></span><br><span class="line">				TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*f32Sin;</span><br><span class="line">				TIM1-&gt;CCR2 = TIM1-&gt;CCR1;	</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-
-<p>​		</p>
-<h1 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h1><p><img src="/imgs/$%7Bfiilename%7D/%E5%85%A8%E6%A1%A5%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86%E5%9B%BE.jpg"></p>
-<p>STM32输出两路不同的SPWM信号及其互补信号，控制四根管子的开关，从而实现逆变。其中，可以采取单极性调制或者双极性调制两种调制方式。(还有单极性倍频？)</p>
-<h2 id="单极性调制"><a href="#单极性调制" class="headerlink" title="单极性调制"></a>单极性调制</h2><p>如上图，1管和2管不能同时导通，3管和4管不能同时导通，二者是互补的关系。也就是1管和2管输入互补的信号，3管和4管输入互补的信号。</p>
-<p>调制波在正半周的时候，1管导通，2管关断。当调制波大于载波时，4管导通，3管截止</p>
-<p>调制波在负半周的时候，2管导通，1管关断。调制原理与上述相同</p>
-<h2 id="双极性调制"><a href="#双极性调制" class="headerlink" title="双极性调制"></a>双极性调制</h2><p>当调制波大于载波的时候，1、4管导通，2、3管截止</p>
-<p>反之，1、4管截止，2、3管导通</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote>
-<p>可参考的资料文献</p>
-</blockquote>
-<p>[<a href="https://kns.cnki.net/KCMS/detail/detail.aspx?filename=2008028424.nh&dbname=CMFD2008&dbcode=cdmd&uid=WEEvREcwSlJHSldSdmVqMVc3L25wYVZkMnpZS1NGbk04SVloaEpLWmRnQT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MDE1MDExMjdGck82RnRYT3E1RWJQSVIrZm5zNHlSWWFtejExUEhia3FXQTBGckNVUjdtZlkrUm9GQ3JoVUx6TlY=">基于DSP单相逆变器数字控制实验系统研究</a>]</p>
-<blockquote>
-<p>可学习的地方：过流保护、PID控制算法</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>ED</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>关于MOS管</title>
-    <url>/2023/04/28/%E5%85%B3%E4%BA%8EMOS%E7%AE%A1/</url>
-    <content><![CDATA[<p>​                                                                                                                                                                                                                                                                                                                </p>
-<h1 id="N沟道增强型MOS"><a href="#N沟道增强型MOS" class="headerlink" title="N沟道增强型MOS"></a>N沟道增强型MOS</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><img src="/imgs/$%7Bfiilename%7D/MOS1.jpg" style="zoom:50%;" />
-
-<p>当GS接上如图的电压后，由于G的正电会吸引电子上来，从而和两端的D和S形成N沟道，中间会形成电流，此时，如果在DS处也加上电压的话，如下图。</p>
-<img src="/imgs/$%7Bfiilename%7D/MOS2.jpg" style="zoom: 50%;" />
-
-<p>此时，越靠近D处的电子受到的吸引力越强，所形成的沟道也越窄，当DS处电压不断增大，会出现预夹断的情况，继续增大DS的电压，电流不会继续增加，而是保持恒定。综上，GS两端的电压用于控制电流的上限，而DS两端的电压则是用来控制出现预夹断的点。</p>
-<p>输出特性曲线如下：</p>
-<p><img src="/imgs/$%7Bfiilename%7D/MOS3.jpg"></p>
-<h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
-      <tags>
-        <tag>ED</tag>
-      </tags>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> ED </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于MOS管</title>
+      <link href="/2023/04/28/%E5%85%B3%E4%BA%8EMOS%E7%AE%A1/"/>
+      <url>/2023/04/28/%E5%85%B3%E4%BA%8EMOS%E7%AE%A1/</url>
+      
+        <content type="html"><![CDATA[<p>​                                                                                                                                                                                                                                                                                                                </p><h1 id="N沟道增强型MOS"><a href="#N沟道增强型MOS" class="headerlink" title="N沟道增强型MOS"></a>N沟道增强型MOS</h1><h2 id="原理"><a href="#原理" class="headerlink" title="原理"></a>原理</h2><img src="/imgs/$%7Bfiilename%7D/MOS1.jpg" style="zoom:50%;" /><p>当GS接上如图的电压后，由于G的正电会吸引电子上来，从而和两端的D和S形成N沟道，中间会形成电流，此时，如果在DS处也加上电压的话，如下图。</p><img src="/imgs/$%7Bfiilename%7D/MOS2.jpg" style="zoom: 50%;" /><p>此时，越靠近D处的电子受到的吸引力越强，所形成的沟道也越窄，当DS处电压不断增大，会出现预夹断的情况，继续增大DS的电压，电流不会继续增加，而是保持恒定。综上，GS两端的电压用于控制电流的上限，而DS两端的电压则是用来控制出现预夹断的点。</p><p>输出特性曲线如下：</p><p><img src="/imgs/$%7Bfiilename%7D/MOS3.jpg"></p><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ED </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>单相逆变</title>
+      <link href="/2023/04/27/%E5%8D%95%E7%9B%B8%E9%80%86%E5%8F%98/"/>
+      <url>/2023/04/27/%E5%8D%95%E7%9B%B8%E9%80%86%E5%8F%98/</url>
+      
+        <content type="html"><![CDATA[<h1 id="一、组成部分"><a href="#一、组成部分" class="headerlink" title="一、组成部分"></a>一、组成部分</h1><h2 id="硬件部分："><a href="#硬件部分：" class="headerlink" title="硬件部分："></a>硬件部分：</h2><h3 id="1-桥臂-主要部分"><a href="#1-桥臂-主要部分" class="headerlink" title="1.桥臂(主要部分)"></a>1.桥臂(主要部分)</h3><p>桥臂的原理图：</p><p>​<img src="/imgs/$%7Bfiilename%7D/%E6%A1%A5%E8%87%82%E5%8E%9F%E7%90%86%E5%9B%BE.png"></p><p>其中，C1为自举电容，C7是用来消除C1的感性的。PWM信号经过滤波后，从IR2110输入，产生高电平信号用来驱动桥臂，二极管的作用是续流和防止电流反向。</p><blockquote><p>COM作用是？</p><p>输入的15V是否要更高一点？由于MOS管存在压降，输入的15V会有损耗</p><p>VS端口为什么要接到U上面去</p><p>15V是从24V直流电BUCK过来的嘛</p></blockquote><h3 id="2-输出采样电路"><a href="#2-输出采样电路" class="headerlink" title="2.输出采样电路"></a>2.输出采样电路</h3><p>①电压采样电路</p><p><img src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E5%8E%8B%E9%87%87%E6%A0%B7.png"></p><p>采用的互感器是1:1的电压互感器，其中，差分电路的放大倍数用如下图确定</p><blockquote><p>互感器电阻的选择，取决于两端的电压和电流</p></blockquote><p><img src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E6%94%BE%E5%A4%A7%E7%94%B5%E8%B7%AF.png"></p><blockquote><p>如果一端不是接地，而是接电压的话，则输出的放大电压要加上这一部分的电压</p></blockquote><p>②电流采样电路</p><p><img src="/imgs/$%7Bfiilename%7D/%E7%94%B5%E6%B5%81%E9%87%87%E6%A0%B7.png"></p><p>③霍尔采样电路</p><p><img src="/imgs/$%7Bfiilename%7D/%E9%9C%8D%E5%B0%94%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p><p>④差分采样电路</p><p><img src="/imgs/$%7Bfiilename%7D/%E5%B7%AE%E5%88%86%E9%87%87%E6%A0%B7%E7%94%B5%E8%B7%AF.jpg"></p><h2 id="软件部分："><a href="#软件部分：" class="headerlink" title="软件部分："></a>软件部分：</h2><p>软件部分负责控制单片机来输出SPWM波</p><p>这里要先引入float类型以及arm_math库文件</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//宏定义部分</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD  (8399)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> PERIOD_half  (PERIOD/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_period  (4095)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> DAC_periodhalf  (DAC_period/2)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> f_pwm   (10000)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> t_pwm   (1.0f/f_pwm)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> fb  (50.0f)</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span> wb  (fb*2*PI)</span></span><br><span class="line"><span class="type">float</span> f32Theta = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32Omega = <span class="number">1.0f</span>;</span><br><span class="line"><span class="type">float</span> f32Sin = <span class="number">0</span>;</span><br><span class="line"><span class="type">float</span> f32k = <span class="number">0.5f</span>;</span><br><span class="line"><span class="comment">//中断函数中书写部分</span></span><br><span class="line"><span class="comment">//复制中文时，将edit-&gt;configuration-&gt;encoding由encode in ANSI改为chinese GB2312</span></span><br><span class="line"><span class="type">void</span> <span class="title function_">HAL_ADCEx_InjectedConvCpltCallback</span><span class="params">(ADC_HandleTypeDef* hadc)</span></span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">if</span>(hadc-&gt;Instance == ADC1)</span><br><span class="line">&#123;</span><br><span class="line"></span><br><span class="line">HAL_GPIO_TogglePin(test_io_GPIO_Port, test_io_Pin);</span><br><span class="line">f32Theta += (f32Omega * (fb*t_pwm));</span><br><span class="line"></span><br><span class="line"><span class="keyword">if</span>(f32Theta &gt; <span class="number">1.0f</span>) f32Theta -= <span class="number">1.0f</span>;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>(f32Theta &lt; <span class="number">0</span>)f32Theta += <span class="number">1.0f</span>;</span><br><span class="line"></span><br><span class="line">f32Sin = arm_sin_f32(f32Theta*<span class="number">2</span>*PI)*f32k;</span><br><span class="line"></span><br><span class="line">HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_1,DAC_ALIGN_12B_R,f32Theta*DAC_period);</span><br><span class="line">HAL_DAC_SetValue(&amp;hdac,DAC_CHANNEL_2,DAC_ALIGN_12B_R,f32Sin*DAC_periodhalf+DAC_periodhalf);</span><br><span class="line"></span><br><span class="line"><span class="comment">//////单极性</span></span><br><span class="line"><span class="comment">//if(f32Theta &lt; 0.5f)  //正半周</span></span><br><span class="line"><span class="comment">//&#123;</span></span><br><span class="line"><span class="comment">//TIM1-&gt;CCR1 = PERIOD - PERIOD*f32Sin;</span></span><br><span class="line"><span class="comment">//TIM1-&gt;CCR2 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//&#125;</span></span><br><span class="line"><span class="comment">//else     //负半周</span></span><br><span class="line"><span class="comment">//&#123;</span></span><br><span class="line"><span class="comment">//TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*-1.0f;</span></span><br><span class="line"><span class="comment">//TIM1-&gt;CCR2 = PERIOD - PERIOD*-f32Sin;</span></span><br><span class="line"><span class="comment">//&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//双极性</span></span><br><span class="line">TIM1-&gt;CCR1 = PERIOD_half - PERIOD_half*f32Sin;</span><br><span class="line">TIM1-&gt;CCR2 = TIM1-&gt;CCR1;</span><br><span class="line">&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>​</p><h1 id="二、原理"><a href="#二、原理" class="headerlink" title="二、原理"></a>二、原理</h1><p><img src="/imgs/$%7Bfiilename%7D/%E5%85%A8%E6%A1%A5%E9%80%86%E5%8F%98%E7%94%B5%E8%B7%AF%E5%8E%9F%E7%90%86%E5%9B%BE.jpg"></p><p>STM32输出两路不同的SPWM信号及其互补信号，控制四根管子的开关，从而实现逆变。其中，可以采取单极性调制或者双极性调制两种调制方式。(还有单极性倍频？)</p><h2 id="单极性调制"><a href="#单极性调制" class="headerlink" title="单极性调制"></a>单极性调制</h2><p>如上图，1管和2管不能同时导通，3管和4管不能同时导通，二者是互补的关系。也就是1管和2管输入互补的信号，3管和4管输入互补的信号。</p><p>调制波在正半周的时候，1管导通，2管关断。当调制波大于载波时，4管导通，3管截止</p><p>调制波在负半周的时候，2管导通，1管关断。调制原理与上述相同</p><h2 id="双极性调制"><a href="#双极性调制" class="headerlink" title="双极性调制"></a>双极性调制</h2><p>当调制波大于载波的时候，1、4管导通，2、3管截止</p><p>反之，1、4管截止，2、3管导通</p><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><blockquote><p>可参考的资料文献</p></blockquote><p>[<a href="https://kns.cnki.net/KCMS/detail/detail.aspx?filename=2008028424.nh&dbname=CMFD2008&dbcode=cdmd&uid=WEEvREcwSlJHSldSdmVqMVc3L25wYVZkMnpZS1NGbk04SVloaEpLWmRnQT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4IQMovwHtwkF4VYPoHbKxJw!!&v=MDE1MDExMjdGck82RnRYT3E1RWJQSVIrZm5zNHlSWWFtejExUEhia3FXQTBGckNVUjdtZlkrUm9GQ3JoVUx6TlY=">基于DSP单相逆变器数字控制实验系统研究</a>]</p><blockquote><p>可学习的地方：过流保护、PID控制算法</p></blockquote>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> ED </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
 </search>
