@@ -322,7 +322,7 @@ h6::before {
   left: -90px;
 }
 .menus_items .menus_item:nth-child(3) .menus_item_child {
-  left: 50px;
+  left: -45px;
 }
 
 /*个人信息卡片背景*/
