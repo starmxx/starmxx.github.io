@@ -375,3 +375,14 @@ h6::before {
   color: #fff;
   background-color: var(rgba(255,0,0,0.85));
 }
+
+
+
+
+svg.icon {
+  width: 1.28em;
+  height: 1.28em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
