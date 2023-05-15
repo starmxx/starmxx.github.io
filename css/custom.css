@@ -386,7 +386,6 @@ svg.icon {
   fill: currentColor;
   overflow: hidden;
 }
-
 /* 头像呼吸灯 */
 [data-theme="light"] .avatar-img {
   animation: huxi_light 4s ease-in-out infinite;
