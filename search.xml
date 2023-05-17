@@ -8,9 +8,21 @@
       <link href="/2023/05/16/stm32%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%B3%BB%E7%BB%9F%E6%9D%BF/"/>
       <url>/2023/05/16/stm32%E5%8D%95%E7%89%87%E6%9C%BA%E6%9C%80%E5%B0%8F%E7%B3%BB%E7%BB%9F%E6%9D%BF/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>单片机最小系统组成：<br><strong>MCU、电源、晶振电路、复位电路</strong>、调试接口（烧录程序必备）、启动（STM32系列）<br>粗体为必须的，其他可选</p><h1 id="一、MCU"><a href="#一、MCU" class="headerlink" title="一、MCU"></a>一、MCU</h1><h1 id="二、电源"><a href="#二、电源" class="headerlink" title="二、电源"></a>二、电源</h1><h1 id="三、晶振电路"><a href="#三、晶振电路" class="headerlink" title="三、晶振电路"></a>三、晶振电路</h1><h1 id="四、复位电路"><a href="#四、复位电路" class="headerlink" title="四、复位电路"></a>四、复位电路</h1><h1 id="五、调试接口"><a href="#五、调试接口" class="headerlink" title="五、调试接口"></a>五、调试接口</h1><h1 id="六、启动模式-BOOT"><a href="#六、启动模式-BOOT" class="headerlink" title="六、启动模式(BOOT)"></a>六、启动模式(BOOT)</h1>]]></content>
       
       
+      <categories>
+          
+          <category> ED </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> ED </tag>
+            
+        </tags>
       
     </entry>
     
