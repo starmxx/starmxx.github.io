@@ -4,6 +4,32 @@
   
     
     <entry>
+      <title>PWM整流(PFC)</title>
+      <link href="/2023/05/21/%E5%8D%95%E7%9B%B8%E6%95%B4%E6%B5%81/"/>
+      <url>/2023/05/21/%E5%8D%95%E7%9B%B8%E6%95%B4%E6%B5%81/</url>
+      
+        <content type="html"><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p>在整流电路，即 AC/DC 变换电路，是指能直接将交流电能转换为直流电能的电路，是电力电子技术及电子仪器中应用极为广泛的一种变换电路。图 1.1(a)所示的是传统的不控二极管整流电路，交流电源经全波整流后，一般接一个大电容器，以得到波形较为平直的直流电压。此电路是一种非线性元件和储能元件的组合，因此，虽然输入交流电压是正弦的，但输入交流电流波形却严重畸变，呈脉冲状，如图1.1(b)所示。此电路对输入进行整流滤波时，只在输入交流电压的峰值部分才有输入电流，导致输入电流含有很大的电流谐波含量，严重干扰了电网，并且输入端的功率因数下降。</p><h2 id="造成的影响有"><a href="#造成的影响有" class="headerlink" title="造成的影响有:"></a>造成的影响有:</h2><p>1.影响供电质量，功率因数的降低，无功功率的大量损失会给电网带来计划外的风险，输电的损失加大<br>2.二极管单相导电，电路效率较低<br>3.闭环控制时动态响应较慢</p><h2 id="谐波的危害"><a href="#谐波的危害" class="headerlink" title="谐波的危害"></a>谐波的危害</h2><p>1.谐波是公用电网中的元件产生了附加的谐波损耗，降低了用电、输电和发电的运行效率<br>2.影响各种电气设备的正常工作。<br>3.使公共电网中产生局部的串联谐振和并联谐振，使谐波放。使1、2的危害增加<br>4.会对临近的通信设备产生干扰。</p><p><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/Snipaste_2023-05-21_10-53-49.jpg" alt=""></p><p>因此，引入PWM整流器，增加功率因数</p><h1 id="BOOST-PFC"><a href="#BOOST-PFC" class="headerlink" title="BOOST-PFC"></a>BOOST-PFC</h1><p>这是一种通过BOOST的功能来实现PFC的电路，有不同的结构</p><p><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/Snipaste_2023-05-24_00-14-28.jpg" alt=""></p><h2 id="单管整流"><a href="#单管整流" class="headerlink" title="单管整流"></a>单管整流</h2><p>通过控制开关管的关断，可以控制电感上电流的大小。开关的关断运用到的是与BOOST电路相同的拓扑结构，当开关闭合时，电感电流会上升，开关断开后，电感的电流会下降。通过这样一个不断上升下降的变化，可以让输入电流愈加趋近于正弦。</p><blockquote><p>单管整流中，电感放在输入回路，或放在整流桥输出回路上，所达到的效果一样<br>这里单管整流将电感放在输入端，可以让电感上的电流来决定二极管的导通</p></blockquote><h2 id="PWM电压型整流-四开关H桥整流"><a href="#PWM电压型整流-四开关H桥整流" class="headerlink" title="PWM电压型整流(四开关H桥整流)"></a>PWM电压型整流(四开关H桥整流)</h2><p>这种电路是无桥PFC整流，将整流桥给去掉。通过四个开关管的开关断，实现整流和PFC。整个回路所需要的元件少，每个回路通过的元件少，整个电路的效率较高。</p><h1 id="DCM和CCM"><a href="#DCM和CCM" class="headerlink" title="DCM和CCM"></a>DCM和CCM</h1><h1 id=""><a href="#" class="headerlink" title=" "></a> </h1><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><div class="reference-source"><span class="hidden-anchor" id="referfrom_[1]"></span><a class="reference-anchor" href="#referto_[1]">[1]<div class="reference-anchor-up fa-solid fa-angles-up"></div></a><a class="reference-link" href="https://kns.cnki.net/kcms2/article/abstract?v=3uoqIhG8C475KOm_zrgu4h_jQYuCnj_co8vp4jCXSivDpWurecxFtH1j9mC7DZS4gFzDJwp1dpMJamJlEXerYocY8g7Ovw5h&uniplatform=NZKPT">Boost-PFC电路拓扑和控制算法的研究 郎芸萍 </a></div>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>功率计算</title>
+      <link href="/2023/05/20/%E5%8A%9F%E7%8E%87%E8%AE%A1%E7%AE%97/"/>
+      <url>/2023/05/20/%E5%8A%9F%E7%8E%87%E8%AE%A1%E7%AE%97/</url>
+      
+        <content type="html"><![CDATA[<h1 id="常用仪器"><a href="#常用仪器" class="headerlink" title="常用仪器"></a>常用仪器</h1><p><img src="https://cdn.staticaly.com/gh/starmxx/blogcdn@master/blogimage/Snipaste_2023-05-20_20-06-26.jpg" alt=""></p><h1 id="瞬时功率"><a href="#瞬时功率" class="headerlink" title="瞬时功率"></a>瞬时功率</h1><p>瞬时功率是通过加在其上面的电压以及流过的电流计算的</p><script type="math/tex; mode=display">p(t)=v(t)i(t)</script><h1 id="能量"><a href="#能量" class="headerlink" title="能量"></a>能量</h1><p>能量是瞬时功率在时间上的积分，单位为瓦特(W)</p><script type="math/tex; mode=display">W=\int_{t1}^{t2}p(t)dt</script><h1 id="平均功率"><a href="#平均功率" class="headerlink" title="平均功率"></a>平均功率</h1><p>周期的电压和电流将产生周期的瞬时功率。平均功率是对p(t)在单个或多个周期时间内的平均，平均功率P可表示为(T为功率的周期时间)</p><script type="math/tex; mode=display">P=\frac{1}{T}\int_{t_0}^{t_0+T}p(t)dt=\frac{1}{T}\int_{t_0}^{t_0+T}v(t)i(t)dt\iff P=\frac{W}{T}</script><p>平均功率在交流电路中通常也被成为实际功率或<strong>有功功率</strong>。</p><h1 id="交流电"><a href="#交流电" class="headerlink" title="交流电"></a>交流电</h1><h2 id="有效值RMS"><a href="#有效值RMS" class="headerlink" title="有效值RMS"></a>有效值RMS</h2><p>电压或电流的有效值也被成为均方根或方均根(RMS,root-mean-square)。周期电压波形的有效值是基于传递到电阻上的平均功率确定的</p><p>恒定电压的功率:</p><script type="math/tex; mode=display">P=V_{dc}^2/R</script><p>对于任一电阻为负载的波形的功率计算，有效值采用类似的定义:</p><script type="math/tex; mode=display">P=V_{eff}^2/R\\\\P=\frac{1}{T}\int_0^Tp(t)dt=\frac{1}{T}\int_0^Tv(t)i(t)dt=\frac{1}{T}\int_0^T\frac{v^2(t)}{R}dt=\frac{1}{R}[\frac{1}{T}\int_0^Tv^2(t)dt]\\\\联立可得:P=V^2_{eff}/R=\frac{1}{R}[\frac{1}{T}\int_0^Tv^2(t)dt]</script><p>最终得到有效值电压表达式:</p><script type="math/tex; mode=display">V_{eff}=V_{rms}=\sqrt{\frac{1}{T}\int_0^Tv^2(t)dt}</script><p>类似可得有效值电流表达式:</p><script type="math/tex; mode=display">I_{eff}=I_{rms}=\sqrt{\frac{1}{T}\int_0^Ti^2(t)dt}</script><h2 id="视在功率S"><a href="#视在功率S" class="headerlink" title="视在功率S"></a>视在功率S</h2><p>视在功率是电压和电流有效值的乘积，常用于对变压器功率设备的标称，即</p><script type="math/tex; mode=display">S=V_{rms}I_{rms}</script><p>在交流电路中，视在功率是复功率的幅值</p><h2 id="功率因数"><a href="#功率因数" class="headerlink" title="功率因数"></a>功率因数</h2><p>负载的功率因数定义为平均功率(有功功率)与视在功率的比：</p><script type="math/tex; mode=display">pf=\frac{P}{S}=\frac{P}{V_{rms}I_{rms}}</script><p>上式也可写成pf=cosθ，其中θ是正弦电压与电流之间的相角，但这是特例，只有当电压和电流均为正弦时才能使用。通常，功率因数通过上式计算</p><h2 id="正弦功率计算"><a href="#正弦功率计算" class="headerlink" title="正弦功率计算"></a>正弦功率计算</h2><p>虽然，在电力电子电路中电压或电流不一定是正弦的，但是非正弦周期波形总可以用正弦的傅里叶级数表示。</p><p>假设交流电路中:</p><script type="math/tex; mode=display">v(t)=V_mcos(\omega t+\theta),i(t)=I_mcos(\omega t+\phi)</script><p>瞬时功率为</p><script type="math/tex; mode=display">p(t)=v(t)i(t)=V_mcos(\omega t+\theta)I_mcos(\omega t+\phi)\\\\=\frac{V_mI_m}{2}[cos(2\omega t+\theta+\phi)+cos(\theta -\phi)]</script><p>周期内的平均功率为:</p><script type="math/tex; mode=display">P=\frac{1}{T}\int_0^Tp(t)dt=\frac{V_mI_m}{2T}\int_0^T[cos(2\omega t+\theta+\phi)+cos(\theta -\phi)]dt</script><p>很容易得到:</p><script type="math/tex; mode=display">P=\frac{V_mI_m}{2}cos(\theta -\phi)</script><p>可用有效值表示:</p><script type="math/tex; mode=display">P=V_{rms}I_{rms}cos(\theta -\phi),V_{rms}=V_m/\sqrt2,I_{rms}=I_m/\sqrt2</script><p>θ-Φ是电压于电流的相角，此时的功率因数为：cos(θ-Φ)</p><h2 id="非正弦功率计算"><a href="#非正弦功率计算" class="headerlink" title="非正弦功率计算"></a>非正弦功率计算</h2><p>利用傅里叶级数，将其变换到一系列正弦波形之和，电路功率关系也可以用傅里叶级数表达</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>超全封装汇总</title>
       <link href="/2023/05/18/%E8%B6%85%E5%85%A8%E5%B0%81%E8%A3%85%E6%B1%87%E6%80%BB/"/>
       <url>/2023/05/18/%E8%B6%85%E5%85%A8%E5%B0%81%E8%A3%85%E6%B1%87%E6%80%BB/</url>
